@@ -29,7 +29,7 @@ Open your system console, navigate to the project folder, and execute **`compose
 
 ### **Step 6: Database Configuration** (skip this step if you have done so before)
 
-Create a PostgreSQL database named **`THSR`**. Import the provided **`.sql`** file to populate your database with the necessary tables and data.
+Create a PostgreSQL database named **`VACCINE`**. Import the provided **`.sql`** file to populate your database with the necessary tables and data.
 
 ### **Step 7: Eloquent Configuration**
 

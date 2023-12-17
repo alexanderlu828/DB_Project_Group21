@@ -24,6 +24,9 @@
     <link rel="stylesheet" href="vvv.css"> <!-- 引入 CSS 文件 -->
 </head>
 
+
+
+    
 <body>
 <!-- 管理資料表單 -->
     <h1>管理資料：</h1>
@@ -44,7 +47,7 @@
             <input type="time" id="endTime" name="endTime"><br><br>
             <input type="button" value="Save" onclick="saveData()">
         </form>
-    </div><br>
+    </div><br><br><br>
 
     <div class="admin-container">
         <h2>上傳csv檔案:</h2>
@@ -79,18 +82,43 @@
 
 
 <script>
-function saveData() {
-    var id = document.getElementById('id').value;
-    var name = document.getElementById('name').value;
-    var address = document.getElementById('address').value;
-
-    console.log("地點編號: " + id);
-    console.log("名稱: " + name);
-    console.log("地址: " + address);
     // 要將資料發送到後端進行處理
-}
+    function saveData() {
+        const id = document.getElementById('id').value;
+        const name = document.getElementById('name').value;
+        const address = document.getElementById('address').value;
+        const capacity = document.getElementById('capacity').value;
+        const startTime = document.getElementById('startTime').value;
+        const endTime = document.getElementById('endTime').value;
+    
+        const data = {
+            location_id: id,
+            location_name: name,
+            location_address: address,
+            slot_capacity: capacity,
+            service_start_time: startTime,
+            service_end_time: endTime
+        };
+    
+        fetch('your_backend_endpoint', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+        .then(response => {
+            // Handle response from the backend
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    }
 </script><br><br><br><br><br>
 
+
+
+        
 <div class="admin-container">
     <h2>刪除地點:</h2>
     <form id="adminForm" action="">
@@ -113,6 +141,9 @@ function saveData() {
 </div><br><br><br><br><br>
 
 
+
+
+    
 
 <div class="admin-container">
     <h2>更改特定地點存量:</h2>

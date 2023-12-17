@@ -36,6 +36,12 @@
             <input type="text" id="name" name="name"><br><br>
             <label for="address">地址:</label>
             <input type="text" id="address" name="address"><br><br>
+            <label for="capacity">時段人數:</label>
+            <input type="number" id="capacity" name="capacity"><br><br>
+            <label for="startTime">開始時間:</label>
+            <input type="time" id="startTime" name="startTime"><br><br>
+            <label for="endTime">結束時間:</label>
+            <input type="time" id="endTime" name="endTime"><br><br>
             <input type="button" value="Save" onclick="saveData()">
         </form>
     </div><br>

@@ -4,7 +4,7 @@
     <?php
         $host = 'localhost';
         $port = 5432; // remember to replace your own connection port
-        $dbname = 'postgres'; // remember to replace your own database name
+        $dbname = 'postgres'; // remember to replace your own database name 
         $user = 'postgres'; // remember to replace your own username 
         $password = trim(file_get_contents('db_password.txt')); // remember to replace your own password 
 

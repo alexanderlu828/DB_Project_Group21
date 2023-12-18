@@ -6,7 +6,7 @@ $user = 'postgres';
 $password = trim(file_get_contents('db_password.txt'));
 
 $pdo = new PDO("pgsql:host=$host;port=$port;dbname=$dbname", $user, $password);
-$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_FILES['csvFile'])) {

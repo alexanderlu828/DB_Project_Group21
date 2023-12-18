@@ -173,7 +173,7 @@ function deleteLocation() {
 
 <div class="admin-container">
     <h2>更新接種地點資訊</h2>
-    <h3>若該資訊沒有要更改輸入原資訊即可</h3>
+    <h5>註：若該資訊沒有要更改，輸入原資訊即可</h5>
     <form id="updateLocationForm" onsubmit="event.preventDefault(); updateLocationInfo();">
         <label for="locationId">欲更改的地點編號:</label>
         <select id="locationId" name="locationId">

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="ad.css"> 
+<link rel="stylesheet" href="ad.css">
 
 <head>
     <meta charset="UTF-8">
@@ -8,13 +8,13 @@
 </head>
 
 <body>
-    <h2>Select Appointment by User ID:</h2>
+    <h2>輸入使用者編號查詢預約記錄</h2>
     <div class="admin-container">
         <form id="appointmentForm" action="">
-            <label for="userId">User ID:</label>
+            <label for="userId">使用者編號:</label>
             <input type="text" id="userId" name="userId"><br><br>
-            <input type="button" value="確定" onclick="getUserAppointment()">
-        </form><br>
+            <input type="button" value="查詢" onclick="getUserAppointment()">
+        </form>
 
         <div id="appointmentResult"></div>
     </div>
@@ -42,13 +42,13 @@
     </script><br><br>
 
 
-    <h2>Select Location by ID:</h2>
+    <h2>查詢施打地點的詳細資訊</h2>
     <div class="admin-container">
         <form id="locationForm" action="">
-            <label for="locationId">Location ID:</label>
+            <label for="locationId">地點編號:</label>
             <input type="text" id="locationId" name="locationId"><br><br>
-            <input type="button" value="Get Location Details" onclick="getLocationDetails()">
-        </form><br>
+            <input type="button" value="查詢" onclick="getLocationDetails()">
+        </form>
 
         <div id="locationResult"></div>
     </div><br><br><br>

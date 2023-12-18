@@ -10,7 +10,7 @@ $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') { 
     $locationId = $_POST['locationId'];
-    $locationName = $_POST['locationName'];
+    $locationName = $_POST['locationName']; 
     $locationAddress = $_POST['locationAddress'];
     $slotCapacity = $_POST['slotCapacity'];
     $serviceStartTime = $_POST['serviceStartTime'];

@@ -3,7 +3,7 @@
 
 $host = 'localhost';
 $port = 5432;
-$dbname = 'postgres';
+$dbname = 'postgres'; 
 $user = 'postgres';
 $password = trim(file_get_contents('db_password.txt'));
 

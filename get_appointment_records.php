@@ -3,7 +3,7 @@ $host = 'localhost';
 $port = 5432;
 $dbname = 'Vaccine_system';
 $user = 'postgres';
-$password = trim(file_get_contents('db_password.txt'));
+$password = trim(file_get_contents('db_password.txt')); 
 
 try {
     $pdo = new PDO("pgsql:host=$host;port=$port;dbname=$dbname", $user, $password);

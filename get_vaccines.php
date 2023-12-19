@@ -25,6 +25,7 @@ try {
             JOIN vaccine_info v ON vi.vaccine_id = v.vaccine_id
             WHERE vi.location_id = 
                 (SELECT location_id FROM vaccination_location WHERE location_name = :hospital)";
+    
     $stmt = $pdo->prepare($sql);
     $stmt->bindParam(':hospital', $selectedHospital, PDO::PARAM_STR);
     $stmt->execute();

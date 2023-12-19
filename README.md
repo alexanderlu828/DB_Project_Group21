@@ -2,7 +2,7 @@
 
 ## **Installation and Setup**
 
-### **Step 1: System Requirements** 
+### **Step 1: System Requirements**  
 
 - PHP 7.4+
 - XAMPP

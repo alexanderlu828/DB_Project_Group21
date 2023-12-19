@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" href="ad.css"> 
-    <?php
+    <?php 
         $host = 'localhost';
         $port = 5432; // remember to replace your own connection port
         $dbname = 'postgres'; // remember to replace your own database name 

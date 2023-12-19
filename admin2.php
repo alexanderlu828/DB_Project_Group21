@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>User Appointments</title>
+    <title>User Appointments</title> 
 </head>
 
 <body>

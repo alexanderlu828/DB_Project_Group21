@@ -1,6 +1,12 @@
-# DB_Project_Group21_Introduction
+# DB_Project_Group21
+
+## **Project Introduction**
+
+Our online vaccine appointment platform, "VaxHub" is designed to address the chaos in vaccination site scheduling caused by the increased public demand for vaccines. Users can use this platform to view different vaccination locations and vaccine inventory, and book the most suitable vaccination time slot. The system also provides various functionalities for administrators, such as inventory management and vaccination site management.
 
 ## **Installation and Setup**
+
+Please go through the following steps to set up your environment.
 
 ### **Step 1: System Requirements** 
 
@@ -8,8 +14,6 @@
 - XAMPP
 - Composer
 - PostgreSQL
-
-Please go through the following steps to set up your environment.
 
 ### **Step 2: XAMPP Installation**
 

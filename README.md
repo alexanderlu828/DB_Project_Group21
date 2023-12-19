@@ -50,4 +50,4 @@ Go to your PHP directory (e.g., at **`C:\xampp\php`**) to edit php.ini using any
 
 ## **Example** ##
 
-After completing the above steps, enter the URL **`http://localhost/DB_Project_Group21-main/index.php`** to access our system's homepage. If you are a user, please click on "User" to make inquiries and appointments. If you are an administrator, please click on "Administrator" for managing vaccination sites and inventory. The query function for administrators is located under "Administrator search". These web pages offer a user-friendly interface, enjoy it!
+After completing the above steps, enter the URL `http://localhost/DB_Project_Group21-main/index.php` to access our system's homepage. If you are a user, please click on "User" to make inquiries and appointments. If you are an administrator, please click on "Administrator" for managing vaccination sites and inventory. The query function for administrators is located under "Administrator search". These web pages offer a user-friendly interface, enjoy it!

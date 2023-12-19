@@ -3,45 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Vaccine System</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif; 
-            background-color: #f4f4f4;
-            color: #333;
-            line-height: 1.6;
-        }
-        .user-container, .feedback-container, .side-effect-container {
-            background: #fff;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 10px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-        input[type="text"], select, input[type="date"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border-radius: 5px;
-            border: 1px solid #ddd;
-        }
-        input[type="button"] {
-            width: 100%;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            background-color: #4CAF50;
-            color: white;
-            cursor: pointer;
-        }
-        input[type="button"]:hover {
-            background-color: #45a049;
-        }
-    </style>
 </head>
 <body>
 <!-- user表單 -->

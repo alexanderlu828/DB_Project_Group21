@@ -5,7 +5,7 @@ $dbname = 'Vaccine_system';
 $user = 'postgres';
 $password = trim(file_get_contents('db_password.txt'));
 
-$pdo = new PDO("pgsql:host=$host;dbname=$dbname", $user, $password);
+$pdo = new PDO("pgsql:host=$host;dbname=$dbname", $user, $password); 
 
 $userId = $_POST['userId'];
 $hadSideEffects = $_POST['hadSideEffects'];

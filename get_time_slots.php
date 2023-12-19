@@ -5,7 +5,7 @@ $host = 'localhost';
 $port = 5432; // 您的連接端口
 $dbname = 'Vaccine_system'; // 您的數據庫名稱
 $user = 'postgres'; // 您的用戶名
-$password = trim(file_get_contents('db_password.txt')); // 您的密碼
+$password = trim(file_get_contents('db_password.txt')); // 您的密碼 
 
 try {
     $pdo = new PDO("pgsql:host=$host;port=$port;dbname=$dbname", $user, $password);

@@ -1,4 +1,4 @@
-# DB_Project_Group21
+# DB_Project
 
 ## **Project Introduction**
 
